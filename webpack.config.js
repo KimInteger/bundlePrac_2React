@@ -11,7 +11,7 @@ module.exports = {
   module : {
     rules : [
       {
-        test: /\.ts$/,
+        test: /\.ts$/, // 타스인지 확인할 거야.
         use : 'ts-loader',
         exclude : /node_modules/
       }
