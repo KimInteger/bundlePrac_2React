@@ -14,6 +14,11 @@ module.exports = {
         test: /\.ts$/, // 타스인지 확인할 거야.
         use : 'ts-loader',
         exclude : /node_modules/
+      },
+      {
+        test: /\.js$/, // 자스인지 확인할 거야.
+        use : 'babel-loader',
+        exclude : /node_modules/
       }
     ]
   },
