@@ -1,0 +1,19 @@
+{
+  "name": "bundleprac_2",
+  "version": "1.0.0",
+  "description": "\"7월8일 수업\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimInteger/bundlePrac_2.git"
+  },
+  "author": "KimInteger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimInteger/bundlePrac_2/issues"
+  },
+  "homepage": "https://github.com/KimInteger/bundlePrac_2#readme"
+}
