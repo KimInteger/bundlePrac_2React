@@ -11,12 +11,12 @@ module.exports = {
   module : {
     rules : [
       {
-        test: /\.js$/, // 자스인지 확인할 거야.
+        test: /\.(js|jsx|ts|tsx)$/, // 자스인지 확인할 거야.
         use : 'babel-loader',
         exclude : /node_modules/
       },
       {
-        test: /\.(ts|tsx)$/, // 타스인지 확인할 거야.
+        test: /\.tsx$/, // 타스인지 확인할 거야.
         use : 'ts-loader',
         exclude : /node_modules/
       },
